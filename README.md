@@ -25,14 +25,10 @@ Minitar is fully Posix-compliant, meaning it can freely interoperate with all of
 </ul>
 
 ## Running Tests
-
-A Makefile is provided as part of this project. This file supports the following commands:
-
 <ul>
   <li>  <code>make</code> : Compile all code, produce an executable minitar program.
   <li>  <code>make clean</code> : Remove all compiled items. Useful if you want to recompile everything from scratch.
   <li>  <code>make clean-tests</code> : Remove all files produced during execution of the tests.
-  <li>  <code>make zip</code> : Create a zip file for submission to Gradescope
   <li>  <code>make test</code> : Run all test cases
   <li>  <code>make test testnum=5</code> : Run test case #5 only
 </ul>
