@@ -25,6 +25,9 @@ Minitar is fully Posix-compliant, meaning it can freely interoperate with all of
 </ul>
 
 ## Running Tests
+
+A Makefile is provided as part of this project. This file supports the following commands:
+
 <ul>
   <li>  <code>make</code> : Compile all code, produce an executable minitar program.
   <li>  <code>make clean</code> : Remove all compiled items. Useful if you want to recompile everything from scratch.
