@@ -21,7 +21,8 @@ Minitar is fully Posix-compliant, meaning it can freely interoperate with all of
       <li>  <code>input</code> : Input files used in automated testing cases
       <li>  <code>resources</code> : More input files
       <li>  <code>output</code> : Expected output
-    </ul>  
+    </ul>
+  <li>  <code>testius</code> : Python script that runs the tests
 </ul>
 
 ## Running Tests
