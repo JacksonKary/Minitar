@@ -9,9 +9,9 @@ Minitar is fully Posix-compliant, meaning it can freely interoperate with all of
 
 ## What is in this directory?
 <ul>
+  <li>  <code>minitar_main.c</code> : Implements the command-line interface for the minitar application. Parses command-line arguments and invokes archive management functions.
   <li>  <code>minitar.h</code> : Header file declaring archive file management functions.
   <li>  <code>minitar.c</code> : Implementations of functions to perform various archive operations, such as creating archives, updating archives, or extracting data from archives.
-  <li>  <code>minitar_main.c</code> : Implements the command-line interface for the minitar application. Parses command-line arguments and invokes archive management functions.
   <li>  <code>file_list.h</code> : Header file for a linked list data structure used to store file names.
   <li>  <code>file_list.c</code> : Implementation of the linked list data structure for file names.
   <li>  <code>testius</code> : Script to run minitar test cases.
